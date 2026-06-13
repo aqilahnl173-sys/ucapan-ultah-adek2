@@ -62,10 +62,10 @@ msg.style.display==="block"
 ? "none"
 : "block";
 });
-
-const song=document.getElementById("song");
-
+const song=
+document.getElementById("song");
+const musicBtn=
 document.getElementById("musicBtn")
-.addEventListener("click",()=>{
+musicBtn.addEventListener("click",()=>{
 song.play();
 });
